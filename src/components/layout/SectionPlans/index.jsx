@@ -29,7 +29,7 @@ import { CiBadgeDollar } from 'react-icons/ci'
 export default function SectionPlans(){
 
   function handleCheckoutTrimestral(){
-    window.open('https://pay.hub.la/K1zYrTXuNDHi535xk83L', '_blank', 'noopener,noreferrer');
+    window.open('https://pay.hub.la/EDSC3gXldnrNNOUHE45M', '_blank', 'noopener,noreferrer');
   }
 
   return(
@@ -47,10 +47,10 @@ export default function SectionPlans(){
 
         <AreaPrice>
           <PriceBefore>R$ 697,99</PriceBefore>
-          <PriceAfter>12x de 29,16</PriceAfter>
+          <PriceAfter>12x de 29,25</PriceAfter>
         </AreaPrice>
         <Or>ou</Or>
-        <Price>R$ 298,99</Price>
+        <Price>R$ 299,99</Price>
 
         <ContainerChecked>
           <AreaChecked>
@@ -86,7 +86,7 @@ export default function SectionPlans(){
           </AreaMessage>
           <AreaMessage>
             <CiBadgeDollar size={20} color='#d1a50e' />
-            <MessageYellow>R$ 29,16/mês por um ano</MessageYellow>
+            <MessageYellow>R$ 29,25/mês por um ano</MessageYellow>
           </AreaMessage>
         </AreaMessages>
         <ButtonCheckout onClick={handleCheckoutTrimestral} >Acessar agora</ButtonCheckout>

@@ -36,7 +36,7 @@ export default function SectionPaths(){
 
         <Price>
           <PriceTitleYellow>PAGAR O <span>1%</span></PriceTitleYellow>
-          <PriceCourse>R$29,16</PriceCourse>
+          <PriceCourse>R$29,25</PriceCourse>
           <PriceDescription>Acesse imediatamente e ganhe uma call individual com um especialista de e-commerce e garanta seu destaque no mercado.</PriceDescription>
           <Button text='Acessar o plano' />
         </Price>
