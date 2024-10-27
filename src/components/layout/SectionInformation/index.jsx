@@ -12,16 +12,24 @@ import {
 
 import { AiOutlineCheck } from 'react-icons/ai'
 
+import iconFormatura from '../../../assets/icon-formatura.png'
+import iconComunidade from '../../../assets/icon-comunidade.png'
+import iconDollar from '../../../assets/icon-dollar.png'
+
+import gif1 from '../../../assets/1.gif'
+import gif4 from '../../../assets/4.gif'
+import gif5 from '../../../assets/5.gif'
+
 export default function SectionInformation(){
   return(
     <GeralContainer id='informacoes' >
       <Container>
-        <Gif src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727126786/1_jygccf.gif' alt='Gif animado' />
+        <Gif src={gif1} alt='Gif animado' />
 
         <AreaInfo>
 
           <AreaTitle>
-            <Icon src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124329/icon-formatura_voay5r.png' />
+            <Icon src={iconFormatura} />
             <Title>Aprenda a <span>fazer dinheiro de verdade</span></Title>
           </AreaTitle>
 
@@ -42,12 +50,12 @@ export default function SectionInformation(){
       </Container>
 
       <Container>
-        <Gif src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727126775/4_aeiuvf.gif' alt='Gif animado' />
+        <Gif src={gif4} alt='Gif animado' />
 
         <AreaInfo>
 
           <AreaTitle>
-            <Icon src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124329/icon-comunidade_srkkyh.png' />
+            <Icon src={iconComunidade} />
             <Title>Junte-se a um <span>grupo seleto</span></Title>
           </AreaTitle>
 
@@ -64,12 +72,12 @@ export default function SectionInformation(){
       </Container>
 
       <Container>
-        <Gif src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727126576/5_jlfhdq.gif' alt='Gif animado' />
+        <Gif src={gif5} alt='Gif animado' />
 
         <AreaInfo>
 
           <AreaTitle>
-            <Icon src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124329/icon-dollar_qju0lc.png' />
+            <Icon src={iconDollar} />
             <Title>Acesso a <span>milionários</span></Title>
           </AreaTitle>
 

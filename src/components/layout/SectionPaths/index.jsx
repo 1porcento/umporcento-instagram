@@ -16,6 +16,8 @@ import {
 
 import Button from '../../../components/common/Button'
 
+import vsIcon from '../../../assets/vs.png'
+
 export default function SectionPaths(){
   return(
     <Container id='alternativa' >
@@ -32,7 +34,7 @@ export default function SectionPaths(){
           <ButtonClt>Permanecer como funcionário</ButtonClt>
         </Price>
 
-        <IconVs src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124331/vs_xg4jmd.png' alt='Ícone VS' />
+        <IconVs src={vsIcon} alt='Ícone VS' />
 
         <Price>
           <PriceTitleYellow>PAGAR O <span>1%</span></PriceTitleYellow>

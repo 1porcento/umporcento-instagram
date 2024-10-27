@@ -23,6 +23,10 @@ import { FaDollarSign } from 'react-icons/fa6'
 
 import Button from '../../../components/common/Button'
 
+import gif2 from '../../../assets/2.gif'
+import gif3 from '../../../assets/3.gif'
+import gif1 from '../../../assets/1.gif'
+
 export default function SectionAccess(){
   return(
     <Container>
@@ -35,7 +39,7 @@ export default function SectionAccess(){
       </ContainerTitle>
 
       <ContainerInfo>
-        <Gif src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727126776/2_o0vxxo.gif' alt='Gif animado' />
+        <Gif src={gif2} alt='Gif animado' />
         <AreaInfo>
           <TitleInfo>Aprendizagem passo a passo</TitleInfo>
           <Description>Você terá acesso a <span>+150 aulas e tutoriais</span> bem estruturados que abrangem desde os fundamentos do E-commerce até estrategias de Ads para fazer <span>+15mil por dia.</span>
@@ -63,11 +67,11 @@ export default function SectionAccess(){
           <Description><span>Eles são profissionais hipermotivados e experientes</span> que fornecerão a você um conhecimento organizado, novas lições diárias e orientação constante durante toda a sua jornada.</Description>
           <Description>Desde aprender como fazer sua primeira venda, <span>até escalar para um negócio multimilionário, entreno1porcento.com </span>é totalmente diferente de tudo que você já viu.</Description>
         </AreaInformationsTitle>
-        <Gif src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727126779/3_ezyisk.gif' alt='Gif animado' />
+        <Gif src={gif3} alt='Gif animado' />
       </ContainerMoreInformations>
 
       <ContainerInfo>
-        <Gif src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727126786/1_jygccf.gif' alt='Gif animado' />
+        <Gif src={gif1} alt='Gif animado' />
         <AreaInfo>
           <TitleInfo>Uma comunidade exclusiva com mais de 2 mil alunos com ideias semelhantes</TitleInfo>
           <Description>Nossa comunidade online é um ambiente de apoio e alto foco. Todos estão na mesma missão de adquirir abundância de riqueza.

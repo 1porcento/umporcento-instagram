@@ -1,12 +1,14 @@
 import styled from 'styled-components'
 
+import backgroundPrice from '../../../assets/background-prices.jpg'
+
 export const Container = styled.section`
   display: flex;
   padding: 20px 0;
   flex-direction: column;
   gap: 40px;
   color: #fff;
-  background-image: url('https://res.cloudinary.com/doalz5zdo/image/upload/v1727124327/background-prices_q6yeke.jpg');
+  background-image: url(${backgroundPrice});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

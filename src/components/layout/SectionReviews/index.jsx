@@ -12,6 +12,18 @@ import {
 
 import Button from '../../../components/common/Button'
 
+import review1 from '../../../assets/review-1.jpg'
+import review2 from '../../../assets/review-2.jpg'
+import review3 from '../../../assets/review-3.jpg'
+import review4 from '../../../assets/review-4.jpg'
+import review5 from '../../../assets/review-5.jpg'
+import review6 from '../../../assets/review-6.jpg'
+import review7 from '../../../assets/review-7.jpg'
+import review8 from '../../../assets/review-8.jpg'
+import review9 from '../../../assets/review-9.jpg'
+
+import iconStudents from '../../../assets/estudantes.webp'
+
 export default function SectionReviews(){
   return(
     <Container id='avaliacoes' >
@@ -24,19 +36,19 @@ export default function SectionReviews(){
       </AreaTitle>
 
       <AreaImages>
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124331/review-6_jzcihr.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124331/review-8_cicagx.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124331/review-7_ty2vun.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124331/review-9_c5dx8n.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124329/review-1_jvkv2y.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124330/review-5_zakk3c.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124330/review-4_ptwzat.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124330/review-2_vqnrv9.jpg' alt='Foto de avaliação do aluno' />
-        <Image src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727124330/review-3_fhddvj.jpg' alt='Foto de avaliação do aluno' />
+        <Image src={review1} alt='Foto de avaliação do aluno' />
+        <Image src={review2} alt='Foto de avaliação do aluno' />
+        <Image src={review3} alt='Foto de avaliação do aluno' />
+        <Image src={review4} alt='Foto de avaliação do aluno' />
+        <Image src={review5} alt='Foto de avaliação do aluno' />
+        <Image src={review6} alt='Foto de avaliação do aluno' />
+        <Image src={review7} alt='Foto de avaliação do aluno' />
+        <Image src={review8} alt='Foto de avaliação do aluno' />
+        <Image src={review9} alt='Foto de avaliação do aluno' />
       </AreaImages>
 
       <Button text='ENTRE NO 1%' />
-      <StudentsIcon src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727299844/estudantes_trnhm9.webp' alt='Ícone de estudantes' />
+      <StudentsIcon src={iconStudents} alt='Ícone de estudantes' />
       <StudentsNumber>Junte-se <span>a mais de 2.000</span> estudantes dentro do 1%</StudentsNumber>
 
     </Container>

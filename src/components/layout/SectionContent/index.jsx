@@ -11,6 +11,7 @@ import {
 import Button from '../../common/Button'
 
 import logo from '../../../assets/logo-1porcento.png'
+import iconStudents from '../../../assets/estudantes.webp'
 
 export default function SectionContent(){
   return(
@@ -25,7 +26,7 @@ export default function SectionContent(){
 
       <Button text='Aprenda hoje' />
 
-      <StudentsIcon src='https://res.cloudinary.com/doalz5zdo/image/upload/v1727299844/estudantes_trnhm9.webp' alt='Ícone de estudantes' />
+      <StudentsIcon src={iconStudents} alt='Ícone de estudantes' />
       <StudentsNumber>Junte-se <span>a mais de 2.000</span> estudantes dentro do 1%</StudentsNumber>
     </Container>
   )

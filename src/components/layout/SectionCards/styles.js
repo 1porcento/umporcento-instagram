@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import backgroundCards from '../../../assets/background-cards.jpg'
+
 export const Container = styled.section`
   color: #FFF;
   width: 100%;
@@ -10,7 +12,7 @@ export const Container = styled.section`
   gap: 80px;
   padding-top: 50px;
 
-  background-image: url('https://res.cloudinary.com/doalz5zdo/image/upload/v1727292431/background-cards_nlnizq.jpg');
+  background-image: url(${backgroundCards});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

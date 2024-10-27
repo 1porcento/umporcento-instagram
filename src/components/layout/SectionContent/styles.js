@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import backgroundContent from '../../../assets/background-content.jpg'
 
 export const Container = styled.section`
   width: 100%;
@@ -11,7 +12,7 @@ export const Container = styled.section`
   gap: 30px;
   font-size: 20px;
 
-  background-image: url('https://res.cloudinary.com/doalz5zdo/image/upload/v1727292431/background-content_ptttpm.jpg');
+  background-image: url(${backgroundContent});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

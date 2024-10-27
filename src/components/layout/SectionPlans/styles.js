@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 
+import backgroundCell from '../../../assets/background-cell.jpg'
+import backgroundPlan from '../../../assets/background-plan.jpg'
+
 export const Container = styled.section`
   color: #fff;
   margin: 90px 0;
@@ -7,7 +10,7 @@ export const Container = styled.section`
   flex-direction: column;
   gap: 50px;
 
-  background-image: url('https://res.cloudinary.com/doalz5zdo/image/upload/v1727292431/background-cell_obmu8r.jpg');
+  background-image: url(${backgroundCell});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +51,7 @@ export const AreaPlan = styled.div`
   box-shadow: 0 0 3px #b2b2b2;
   border-radius: 5px;
 
-  background-image: url('https://res.cloudinary.com/doalz5zdo/image/upload/v1727290202/backgroundplan_w3jaun.jpg');
+  background-image: url(${backgroundPlan});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
