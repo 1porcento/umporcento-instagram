@@ -29,7 +29,7 @@ import { CiBadgeDollar } from 'react-icons/ci'
 export default function SectionPlans(){
 
   function handleCheckoutTrimestral(){
-    window.open('https://pay.hub.la/EDSC3gXldnrNNOUHE45M', '_blank', 'noopener,noreferrer');
+    window.open('https://pay.hub.la/AZuSiXNvJDuVU9cw1Nrx', '_blank', 'noopener,noreferrer');
   }
 
   return(
